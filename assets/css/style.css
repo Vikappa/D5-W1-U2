@@ -45,7 +45,8 @@ header {
 
 #title h1 {
     white-space: nowrap;
-    font-size: 5rem;
+    font-size: 6rem;
+    letter-spacing: -8px;
     font-family: 'Spectral', serif;
 }
 
@@ -310,4 +311,8 @@ article {
 
 .pointable {
     cursor: pointer;
+}
+
+.glifo {
+    transition: opacity 0.3s;
 }

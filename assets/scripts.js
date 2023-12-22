@@ -12,8 +12,14 @@ window.addEventListener('scroll', function () {
     }
 });
 
+const arrayM = document.querySelectorAll(".glifo")
+
 const cambiaM = function () {
+
+    const target = arrayM[Math.floor(Math.random() * 561)]
+
+    target.setAttribute("opacity", target.getAttribute("opacity") === "1" ? "0" : "1")
 
 }
 
-let intervallo = setInterval(cambiaM(), 500)
+let intervallo = setInterval(cambiaM, 80)
