@@ -291,6 +291,8 @@ article {
     color: grey;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
+    cursor: pointer;
+
 }
 
 #listaFinale {
@@ -304,4 +306,8 @@ article {
     margin: 10px;
     font-family: 'Roboto', sans-serif;
     color: gray;
+}
+
+.pointable {
+    cursor: pointer;
 }
