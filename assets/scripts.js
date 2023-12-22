@@ -1,5 +1,6 @@
 const nav = document.querySelector("nav")
 const navButton = document.querySelector("nav div button")
+const SVGDELMALE = document.getElementById("SVGDELMALE")
 
 window.addEventListener('scroll', function () {
     if (window.scrollY < 500) {
