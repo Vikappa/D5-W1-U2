@@ -5,6 +5,7 @@ font-family: 'Spectral', serif; */
 
 html {
     background-color: #ffc017;
+    overflow-x: hidden;
 }
 
 header,
@@ -26,8 +27,6 @@ nav {
     z-index: 3;
     transition: 0.5s ease;
 }
-
-
 
 header {
     height: 60vh;
@@ -237,7 +236,8 @@ article {
     color: gray;
 }
 
-.footRight {
+#footRight {
+    position: sticky;
     width: 25%
 }
 
@@ -248,7 +248,14 @@ article {
     justify-content: flex-start;
     align-items: center;
     white-space: nowrap;
+    min-height: 40px;
 }
+
+.artDateTimeTopic p {
+    margin: 0;
+}
+
+
 
 .topic {
     display: inline;
