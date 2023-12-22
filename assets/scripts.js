@@ -12,4 +12,8 @@ window.addEventListener('scroll', function () {
     }
 });
 
+const cambiaM = function () {
 
+}
+
+let intervallo = setInterval(cambiaM(), 500)
