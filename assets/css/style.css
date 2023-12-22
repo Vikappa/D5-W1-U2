@@ -98,7 +98,7 @@ nav div button {
 
 aside {
     padding: 2% 5%;
-    background-color: white;
+    background-color: #FFFFFF;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -116,7 +116,6 @@ aside div {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: white;
     z-index: 1;
 }
 
@@ -181,4 +180,80 @@ aside div {
 .readTime {
     display: flex;
     align-items: center;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5% 5% 10%;
+}
+
+article {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 2;
+    margin: 15px;
+}
+
+
+.a1 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a1 i {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.a1 i img {
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.a1 h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.a1 p {
+    margin: 15px 0 0 0;
+    color: gray;
+}
+
+.footRight {
+    width: 25%
+}
+
+.artDateTimeTopic {
+    margin: 10px;
+    color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.topic {
+    display: inline;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.bottomArticlesImg {
+    width: 28%;
 }
